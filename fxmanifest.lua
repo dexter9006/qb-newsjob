@@ -2,12 +2,13 @@ fx_version 'cerulean'
 game 'gta5'
 
 description 'QB-NewsJob'
-version '1.0.1'
+version '1.3.0'
 
 shared_scripts {
     'config.lua',
     '@qb-core/shared/locale.lua',
-    'locales/en.lua', -- Change to the language you want
+    'locales/en.lua',
+    'locales/*.lua',
 }
 
 client_scripts {
